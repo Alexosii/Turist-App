@@ -363,3 +363,402 @@ display: flex;
     transform: scale(1.25);
 }
             
+
+.hotelespp {
+
+    background-color: #E4E4E4;
+    height: 800px;
+}
+
+.hotelespp h4 {
+
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 1;
+
+    font-size: 22px;
+}
+
+.hotelespp h1 {
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+
+.secHoteles {
+
+
+height: 600px;
+margin-top: 30px;
+
+}
+
+.Hoteles {
+
+
+    height: 350px;
+    margin: 0 100px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+
+}
+
+.foto1-1-1 {
+
+    height: 500px;
+
+
+    background-image: url(../img/casa-1800-suchitoto.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.foto1-1-1hover {
+
+    display: none;
+
+    background-color: rgba(36, 141, 114, 0.4);
+    height: 500px;
+
+
+
+
+
+
+}
+
+.foto1-1-1hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+
+
+}
+
+
+.foto1-1-1:hover .foto1-1-1hover {
+
+    display: block;
+
+}
+
+
+
+.seccion1 a {
+
+    text-decoration: none;
+}
+
+.foto2-2-2 {
+
+    height: 500px;
+    background-image: url(../img/almendras\ san\ lorenzo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.foto2-2-2hover {
+
+    display: none;
+
+    background-color: rgba(107, 133, 190, 0.4);
+    height: 500px;
+
+
+
+
+}
+
+.foto2-2-2hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+}
+
+
+.foto2-2-2:hover .foto2-2-2hover {
+
+    display: block;
+}
+
+
+.foto3-3-3 {
+
+    height: 500px;
+    background-image: url(../img/santa-lucia-casa-hotel.jpg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.foto3-3-3hover {
+
+    display: none;
+
+    background-color: rgba(241, 157, 52, 0.4);
+    height: 500px;
+
+
+
+
+
+}
+
+.foto3-3-3hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+}
+
+
+.foto3-3-3:hover .foto3-3-3hover {
+
+    display: block;
+}
+
+.minicaja {
+
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    bottom: -40px;
+    margin: 0 40px;
+}
+
+.minicaja h2 {
+
+    color: #248D72;
+}
+
+
+.disfruta {
+
+    height: 900px;
+
+}
+
+.disfruta h4 {
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 1;
+
+    font-size: 22px;
+}
+
+.disfruta h1 {
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.lugares2 {
+
+
+    height: 350px;
+    margin: 0 100px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+
+}
+
+.foto1-1 {
+
+    height: 650px;
+
+
+    background-image: url(../img/suchi2.png);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.foto1-1hover {
+
+    display: none;
+
+    background-color: rgba(36, 141, 114, 0.4);
+    height: 650px;
+
+
+
+
+
+
+}
+
+.foto1-1hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+
+
+}
+
+.foto1-1:hover .foto1hover {
+
+    display: block;
+
+}
+
+
+
+.seccion1 a {
+
+    text-decoration: none;
+}
+
+.foto2-2 {
+
+    height: 650px;
+    background-image: url(../img/apaneca2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.foto2-2hover {
+
+    display: none;
+
+    background-color: rgba(107, 133, 190, 0.4);
+    height: 650px;
+
+
+
+
+}
+
+.foto2-2hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+}
+
+
+.foto2-2:hover .foto2hover {
+
+    display: block;
+}
+
+
+.foto3-3 {
+
+    height: 650px;
+    background-image: url(../img/centro.png);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.foto3-3hover {
+
+    display: none;
+
+    background-color: rgba(241, 157, 52, 0.4);
+    height: 650px;
+
+
+
+
+
+}
+
+.foto3-3hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+}
+
+
+.foto3-3:hover .foto3hover {
+
+    display: block;
+}
+
+.foto4 {
+
+    height: 650px;
+    background-image: url(../img/sanata\ ana.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.foto4hover {
+
+    display: none;
+
+    background-color: rgba(200, 241, 52, 0.2);
+    height: 650px;
+
+
+
+
+
+}
+
+.foto4hover h1 {
+
+    color: white;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 280px;
+    animation-duration: 0.5s;
+}
+
+
+.foto4:hover .foto4hover {
+
+    display: block;
+}
+
